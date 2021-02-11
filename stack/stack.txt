@@ -1,0 +1,21 @@
+stack is also called as pushdown list.
+stack is also used to check nesting depth.
+
+An Stack consists of int top and an array.
+i.e    
+    stack{
+        int top;
+        int arr[size];
+    };
+
+There are fundamentally two ADT for stack.
+    1.  PUSH(stack,element)
+    2.  POP(stack)
+
+and other functions for stack for checking illegal actions (actions that causes stack underflow and stack overflow).
+    a.  empty(&s)
+    b.  isfull(&s)
+    c.  popandtest(&s,&x,&und)  { und --> underflow }
+    d.  pushandtest(&s,x,&overflow)
+
+    
